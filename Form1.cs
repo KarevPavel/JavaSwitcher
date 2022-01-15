@@ -148,5 +148,15 @@ namespace JavaSwapper
                 saveToFile();
             }
         }
+
+        private void button4_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button3_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
